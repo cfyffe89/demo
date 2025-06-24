@@ -4,19 +4,40 @@
       "id": "1",
       "name": "Cold Water",
       "amount": 10,
-      "type": "bottle"
+      "type": "bottle",
+      "details": {
+        "color": "blue",
+        "hue": {
+          "a": 1,
+          "b": 2
+        }
+      }
     },
     {
       "id": "2",
       "name": "Hot Water",
       "amount": 100,
-      "type": "bucket"
+      "type": "bucket",
+      "details": {
+        "color": "red",
+        "hue": {
+          "a": 3,
+          "b": 4
+        }
+      }
     },
     {
       "id": "3",
       "name": "Tepid Water",
       "amount": 24,
-      "type": "vial"
+      "type": "vial",
+      "details": {
+        "color": "green",
+        "hue": {
+          "a": 5,
+          "b": 6
+        }
+      }
     }
   ],
   "profile": {

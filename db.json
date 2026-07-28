@@ -1,90 +1,135 @@
 {
-  "id": "NEST-001",
-  "name": "Nested data diagnostic record",
-
-  "_note": "Every field name describes what it tests. In the Signals field-mapping UI, check which of these appear as mappable columns, which are skipped, and which appear with a garbled value (e.g. '[object Object]').",
-
-  "flat_string": "hello world",
-  "flat_integer": 42,
-  "flat_negative": -17,
-  "flat_float": 3.14159,
-  "flat_boolean_true": true,
-  "flat_boolean_false": false,
-  "flat_null": null,
-  "flat_empty_string": "",
-  "flat_zero": 0,
-
-  "nested_object_1_level": {
-    "street": "123 Main St",
-    "city": "Boston",
-    "zip": "02101"
-  },
-
-  "nested_object_3_levels": {
-    "l1": {
-      "l2": {
-        "l3": "value at depth 3"
+  "data": [
+    {
+      "id": "1",
+      "name": "Cold Water",
+      "amount": 10,
+      "type": "bottle",
+      "details": {
+        "color": "blue",
+        "hue": {
+          "a": 1,
+          "b": 2
+        }
+      }
+    },
+    {
+      "id": "2",
+      "name": "Hot Water",
+      "amount": 100,
+      "type": "bucket",
+      "details": {
+        "color": "red",
+        "hue": {
+          "a": 3,
+          "b": 4
+        }
+      }
+    },
+    {
+      "id": "3",
+      "name": "Tepid Water",
+      "amount": 24,
+      "type": "vial",
+      "details": {
+        "color": "green",
+        "hue": {
+          "a": 5,
+          "b": 6
+        }
       }
     }
-  },
-
-  "array_of_strings": ["red", "green", "blue"],
-  "array_of_numbers": [1, 2, 3, 4, 5],
-  "array_of_booleans": [true, false, true],
-
-  "array_of_objects_uniform": [
-    { "variant": "A", "ratio": 0.5 },
-    { "variant": "B", "ratio": 0.3 },
-    { "variant": "C", "ratio": 0.2 }
   ],
+  "nested_records": [
+    {
+      "id": "NEST-001",
+      "name": "Nested data diagnostic record",
 
-  "array_of_objects_nonuniform": [
-    { "kind": "measurement", "value": 12.4, "unit": "mg/L" },
-    { "kind": "note", "text": "See attached report" },
-    { "kind": "flag", "value": true }
-  ],
+      "_note": "Every field name describes what it tests. In the Signals field-mapping UI, check which of these appear as mappable columns, which are skipped, and which appear with a garbled value (e.g. '[object Object]').",
 
-  "array_mixed_types": [1, "two", null, true, { "obj": "inside array" }, [1, 2]],
+      "flat_string": "hello world",
+      "flat_integer": 42,
+      "flat_negative": -17,
+      "flat_float": 3.14159,
+      "flat_boolean_true": true,
+      "flat_boolean_false": false,
+      "flat_null": null,
+      "flat_empty_string": "",
+      "flat_zero": 0,
 
-  "empty_object": {},
-  "empty_array": [],
-  "array_with_null": [null, null, null],
+      "nested_object_1_level": {
+        "street": "123 Main St",
+        "city": "Boston",
+        "zip": "02101"
+      },
 
-  "field_with_special_chars": "Quotes \"like this\", commas, and — em dash",
-  "field_with_unicode": "Chemistry: ☢ H₂O β-lactam · 中文 · العربية",
-  "field_with_newlines": "line one\nline two\nline three",
-  "field_with_tab_chars": "col1\tcol2\tcol3",
+      "nested_object_3_levels": {
+        "l1": {
+          "l2": {
+            "l3": "value at depth 3"
+          }
+        }
+      },
 
-  "field_name with space": "spaces in the key",
-  "field.with.dots": "dots in the key (could conflict with Signals field namespaces)",
-  "field-with-dashes": "dashes in the key",
-  "FIELD_UPPERCASE": "all caps key",
+      "array_of_strings": ["red", "green", "blue"],
+      "array_of_numbers": [1, 2, 3, 4, 5],
+      "array_of_booleans": [true, false, true],
 
-  "very_long_string": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "array_of_objects_uniform": [
+        { "variant": "A", "ratio": 0.5 },
+        { "variant": "B", "ratio": 0.3 },
+        { "variant": "C", "ratio": 0.2 }
+      ],
 
-  "number_as_string": "42",
-  "boolean_as_string": "true",
-  "iso_date_string": "2026-07-28T14:30:00Z",
-  "date_only_string": "2026-07-28",
+      "array_of_objects_nonuniform": [
+        { "kind": "measurement", "value": 12.4, "unit": "mg/L" },
+        { "kind": "note", "text": "See attached report" },
+        { "kind": "flag", "value": true }
+      ],
 
-  "nested_with_arrays": {
-    "primary": {
-      "tags": ["core", "essential"],
-      "measurements": [1.1, 2.2, 3.3]
-    },
-    "secondary": {
-      "tags": ["optional"],
-      "measurements": []
+      "array_mixed_types": [1, "two", null, true, { "obj": "inside array" }, [1, 2]],
+
+      "empty_object": {},
+      "empty_array": [],
+      "array_with_null": [null, null, null],
+
+      "field_with_special_chars": "Quotes \"like this\", commas, and — em dash",
+      "field_with_unicode": "Chemistry: ☢ H₂O β-lactam · 中文 · العربية",
+      "field_with_newlines": "line one\nline two\nline three",
+      "field_with_tab_chars": "col1\tcol2\tcol3",
+
+      "field name with space": "spaces in the key",
+      "field.with.dots": "dots in the key (could conflict with Signals field namespaces)",
+      "field-with-dashes": "dashes in the key",
+      "FIELD_UPPERCASE": "all caps key",
+
+      "very_long_string": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+
+      "number_as_string": "42",
+      "boolean_as_string": "true",
+      "iso_date_string": "2026-07-28T14:30:00Z",
+      "date_only_string": "2026-07-28",
+
+      "nested_with_arrays": {
+        "primary": {
+          "tags": ["core", "essential"],
+          "measurements": [1.1, 2.2, 3.3]
+        },
+        "secondary": {
+          "tags": ["optional"],
+          "measurements": []
+        }
+      },
+
+      "chemical_like": {
+        "smiles": "c1ccccc1",
+        "inchi": "InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H",
+        "molecular_weight": 78.11,
+        "properties": {
+          "melting_point": 5.5,
+          "boiling_point": 80.1
+        }
+      }
     }
-  },
-
-  "chemical_like": {
-    "smiles": "c1ccccc1",
-    "inchi": "InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H",
-    "molecular_weight": 78.11,
-    "properties": {
-      "melting_point": 5.5,
-      "boiling_point": 80.1
-    }
-  }
+  ]
 }

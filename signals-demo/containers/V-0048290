@@ -1,0 +1,17 @@
+{
+  "barcode": "V-0048290",
+  "reagent": {
+    "id": "RGT-000163",
+    "name": "Triethylamine"
+  },
+  "lot": "T2402-005",
+  "supplier": "Kestrel Fine Chemicals",
+  "amount": {
+    "value": 250,
+    "unit": "mL"
+  },
+  "purity_percent": 99.5,
+  "expiry": "2026-08-31T00:00:00Z",
+  "location": "Building 2 / Solvent store / Flammables F2",
+  "status": "Expired"
+}

@@ -1,0 +1,17 @@
+{
+  "barcode": "V-0048240",
+  "reagent": {
+    "id": "RGT-000131",
+    "name": "4-Fluorophenylboronic acid"
+  },
+  "lot": "F2311-208",
+  "supplier": "Alder Scientific",
+  "amount": {
+    "value": 5,
+    "unit": "g"
+  },
+  "purity_percent": 97.0,
+  "expiry": "2027-11-30T00:00:00Z",
+  "location": "Building 2 / Lab 214 / Fridge F2",
+  "status": "Available"
+}

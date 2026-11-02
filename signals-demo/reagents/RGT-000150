@@ -1,0 +1,8 @@
+{
+  "id": "RGT-000150",
+  "name": "Potassium carbonate",
+  "cas": "584-08-7",
+  "smiles": "[K+].[K+].[O-]C([O-])=O",
+  "formula": "CK2O3",
+  "mw": 138.21
+}

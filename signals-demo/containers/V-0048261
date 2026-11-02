@@ -1,0 +1,17 @@
+{
+  "barcode": "V-0048261",
+  "reagent": {
+    "id": "RGT-000142",
+    "name": "Morpholine"
+  },
+  "lot": "M2407-152",
+  "supplier": "Kestrel Fine Chemicals",
+  "amount": {
+    "value": 500,
+    "unit": "mL"
+  },
+  "purity_percent": 99.5,
+  "expiry": "2028-06-30T00:00:00Z",
+  "location": "Building 2 / Solvent store / Flammables F4",
+  "status": "Available"
+}

@@ -1,0 +1,17 @@
+{
+  "barcode": "V-0048227",
+  "reagent": {
+    "id": "RGT-000124",
+    "name": "Bis(pinacolato)diboron"
+  },
+  "lot": "B2404-071",
+  "supplier": "Alder Scientific",
+  "amount": {
+    "value": 10,
+    "unit": "g"
+  },
+  "purity_percent": 99.0,
+  "expiry": "2028-03-31T00:00:00Z",
+  "location": "Building 2 / Lab 214 / Desiccator D1",
+  "status": "Available"
+}

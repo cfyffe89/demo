@@ -1,0 +1,17 @@
+{
+  "barcode": "V-0048213",
+  "reagent": {
+    "id": "RGT-000118",
+    "name": "4-Bromoanisole"
+  },
+  "lot": "L2309-114",
+  "supplier": "Northbridge Chemicals",
+  "amount": {
+    "value": 25,
+    "unit": "g"
+  },
+  "purity_percent": 98.5,
+  "expiry": "2027-09-30T00:00:00Z",
+  "location": "Building 2 / Lab 214 / Cabinet C3",
+  "status": "Available"
+}

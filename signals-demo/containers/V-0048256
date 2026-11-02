@@ -1,0 +1,17 @@
+{
+  "barcode": "V-0048256",
+  "reagent": {
+    "id": "RGT-000137",
+    "name": "2-Chloropyrimidine"
+  },
+  "lot": "C2402-033",
+  "supplier": "Northbridge Chemicals",
+  "amount": {
+    "value": 25,
+    "unit": "g"
+  },
+  "purity_percent": 98.0,
+  "expiry": "2028-01-31T00:00:00Z",
+  "location": "Building 2 / Lab 216 / Cabinet C1",
+  "status": "Available"
+}

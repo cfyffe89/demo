@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "code": "IRK-401",
+      "name": "IRAK4 lead optimization",
+      "therapeutic_area": "Immunology",
+      "friendly_name": "IRK-401 - IRAK4 lead optimization"
+    },
+    {
+      "code": "BTK-212",
+      "name": "BTK inhibitor back-up series",
+      "therapeutic_area": "Immunology",
+      "friendly_name": "BTK-212 - BTK inhibitor back-up series"
+    },
+    {
+      "code": "KRS-118",
+      "name": "KRAS G12C covalent series",
+      "therapeutic_area": "Oncology",
+      "friendly_name": "KRS-118 - KRAS G12C covalent series"
+    },
+    {
+      "code": "PRMT-305",
+      "name": "PRMT5 MTA-cooperative inhibitors",
+      "therapeutic_area": "Oncology",
+      "friendly_name": "PRMT-305 - PRMT5 MTA-cooperative inhibitors"
+    },
+    {
+      "code": "NLR-227",
+      "name": "NLRP3 inflammasome inhibitors",
+      "therapeutic_area": "Immunology",
+      "friendly_name": "NLR-227 - NLRP3 inflammasome inhibitors"
+    },
+    {
+      "code": "TYK-140",
+      "name": "TYK2 JH2 allosteric ligands",
+      "therapeutic_area": "Immunology",
+      "friendly_name": "TYK-140 - TYK2 JH2 allosteric ligands"
+    },
+    {
+      "code": "SST-090",
+      "name": "Somatostatin receptor peptide agonists",
+      "therapeutic_area": "Metabolic disease",
+      "friendly_name": "SST-090 - Somatostatin receptor peptide agonists"
+    },
+    {
+      "code": "LPA-333",
+      "name": "Lp(a) siRNA conjugates",
+      "therapeutic_area": "Cardiovascular",
+      "friendly_name": "LPA-333 - Lp(a) siRNA conjugates"
+    },
+    {
+      "code": "GLP-401",
+      "name": "Oral GLP-1 receptor agonists",
+      "therapeutic_area": "Metabolic disease",
+      "friendly_name": "GLP-401 - Oral GLP-1 receptor agonists"
+    },
+    {
+      "code": "CFT-120",
+      "name": "CFTR corrector chemistry",
+      "therapeutic_area": "Respiratory",
+      "friendly_name": "CFT-120 - CFTR corrector chemistry"
+    }
+  ]
+}
